@@ -6,3 +6,7 @@ h1 {
     text-align: center;
     padding: 50px; 
 }
+
+#headerimage {
+    float: right;
+}

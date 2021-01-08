@@ -8,12 +8,11 @@ h1 {
     border-radius: 10px; 
 }
 
-/*.header {
-    background-color: teal;
-    width: 100%;
-    padding: 30px;
-    margin:0 auto;
-}*/
+
+
+.header {
+    overflow: hidden;
+}
 
 .footer {
     background-color: teal;
@@ -21,6 +20,7 @@ h1 {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
+    color: white;
 }
 
 #headerimage {

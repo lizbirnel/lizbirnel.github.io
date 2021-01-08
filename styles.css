@@ -4,7 +4,8 @@ h1 {
     height: 50px;
     width: 100%;
     text-align: center;
-    padding: 30px; 
+    padding: 30px;
+    border-radius: 30%; 
 }
 
 /*.header {

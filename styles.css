@@ -2,7 +2,7 @@ h1 {
     background-color: #134d55c9;
     color: white;
     height: 50px;
-    max-width: 650px;
+    width: 100%;
     text-align: center;
     padding: 50px; 
 }

@@ -1,6 +1,7 @@
 h1 {
     background-color: teal;
     color: white;
+    font-size: 1.3em;
     height: 50px;
     width: 100%;
     text-align: center;
@@ -8,7 +9,14 @@ h1 {
     border-radius: 10px; 
 }
 
+h2 {
+    color: #AC3B61;
+    font-size: 1.2em;
+}
 
+a {
+    color: #bab285 ;
+}
 
 /*.header {
     background-color: teal;

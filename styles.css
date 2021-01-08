@@ -1,10 +1,10 @@
 h1 {
-    /*background-color: #134d55c9;*/
-    color: gray;
+    background-color: teal;
+    color: white;
     height: 50px;
     width: 100%;
     text-align: center;
-    /*padding: 50px;*/ 
+    padding: 30px; 
 }
 
 /*.header {

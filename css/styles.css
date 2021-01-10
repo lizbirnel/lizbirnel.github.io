@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     background-color:#123C69;
     color: white;
@@ -13,6 +17,7 @@ h1 {
 h2 {
     color: #AC3B61;
     font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
 }
 
 a {

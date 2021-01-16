@@ -1,4 +1,12 @@
 section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
+
+
+
+@media ...medium ->1fr 1fr;        larger than 700px
+@media ... large -> 1fr 1fr 1fr;        larger than 1200px
+
+max-width on columns 400px
+wide enough for 3 columns plus all padding/margins/grid gap filter

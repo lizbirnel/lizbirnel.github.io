@@ -29,7 +29,11 @@ h2 {
 }
 
 a {
-    color: #bab285 ;
+    color: #20695E ;
+}
+
+footer a {
+    color: #F4E9CD ;
 }
 
 /*.footer {
@@ -47,5 +51,5 @@ a {
 }
 
 .dateModified {
-    color: #bab285;
+    color: #9DBEBB;
 }

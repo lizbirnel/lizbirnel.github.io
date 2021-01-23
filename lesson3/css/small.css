@@ -3,8 +3,12 @@ body {
     background-color: #fefceb;
 }
 
+header {
+    margin: 0 auto;
+}
+
 nav {
-	background-color: #939196;
+	background-color: #457B9D;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
@@ -16,7 +20,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-	color: #fff;
+	color:#FEFCEB;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -25,6 +29,10 @@ nav ul li a {
 nav a:hover {
 	background-color: #bbb;
 	color: #36454f;
+}
+
+#logoImg {
+    max-width: 75%;
 }
 
 .colorPalette {
@@ -49,7 +57,7 @@ nav a:hover {
     background-color: #457B9D;
   }
   .secondary {
-    background-color: #939196;
+    background-color: #767378;
   }
   .accent1 {
     background-color: #ffd97d;
@@ -71,6 +79,7 @@ nav a:hover {
 
   body {
       font-family: Merriweather, Times, serif;
+      font-size: 16px;
       color: #22221C;
   }
 
@@ -80,7 +89,7 @@ nav a:hover {
 }
 
   footer {
-    background-color:#939196;
+    background-color:#457B9D;
     max-width: 100%;
     padding: 30px;
     text-align: center;

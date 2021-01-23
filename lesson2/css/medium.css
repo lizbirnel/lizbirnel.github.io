@@ -1,24 +1,18 @@
-@media only screen and (min-width:  32.5em) {
+@media only screen and (min-width:  825px) {
     
     section{
         grid-template-columns: 1fr 1fr;
     }
 
-    /*h1 {
-        font-size: 2.5rem;
+    h1 {
+        font-size: 2.0rem;
     }
     
     h2 {
-        font-size: 1.5rem
+        font-size: 1.5rem;
     }
-
-    header, footer {
-        border-radius: 10px;
-    }
-
-    #headerimage {
-        float: right;
-        box-shadow: 0 0 25px rgb(93, 93, 93);
-        border-radius: 0 10px 0 0;
-    }*/
+    
+    h3 {
+        font-size: 1.25rem;
+    }   
 }

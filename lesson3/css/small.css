@@ -1,0 +1,43 @@
+
+
+
+.colorPalette {
+    max-width: 50%;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: #43BCCD;
+  }
+  .secondary {
+    background-color: #939196;
+  }
+  .accent1 {
+    background-color: #ffd97d;
+  }
+  .accent2{
+    background-color: #fefceb;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      font-family: Lato, Arial, sans-serif;
+  }
+
+  
+  body {
+      font-family: Merriweather, Times, serif;
+      color: #22221C;
+  }

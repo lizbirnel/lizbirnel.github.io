@@ -54,33 +54,3 @@ div {
 img {
     max-width: 100%;
 }
-
-@media only screen and (min-width:  825px) {
-    
-    section{
-        grid-template-columns: 1fr 1fr;
-    }
-
-    h1 {
-        font-size: 2.0rem;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-    }
-    
-    h3 {
-        font-size: 1.25rem;
-    }   
-}
-
-@media only screen and (min-width:  1250px) {
-   
-    section{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-}

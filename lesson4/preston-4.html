@@ -16,40 +16,35 @@
 <body>
     <header>
         <img id="logoImg" src="images/logo.png" alt="Cloudy With a Chance Logo">
-        <h1>Cloudy With a Chance</h1>
-        <p>Insert some catchy motto here...</p>
+        <section class="headings">
+            <h1>Cloudy With a Chance</h1>
+            <div class="m">Rain, snow, shine or meatballs...everything you need to know!</div>
+        </section>
     </header>
-        <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="preston-4.html">Preston</a></li>
-                    <li><a href="#">Soda Springs</a></li>
-                    <li><a href="#">Fish Haven</a></li>
-                    <li><a href="#">Storm Center</a></li>
-                    <li><a href="#">Gallery</a></li>
-                </ul>
-            </nav>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>  
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li> 
+        </ul>
+    </nav>   
     
-    <main>
-            <div id="one">
-                <h2>Site Name:</h2>
-                <p>The site is going to be called <strong>Cloudy With a Chance</strong>.
-                <h2>Site Purpose</h2> 
-                <p>The purpose of this site is to serve the community with information. From the current weather conditions, to 10-day forecasts, to the updated projections for the season, this site will serve as a resource for the community to be able to rely on in their daily lives. People lead busy lives, and this site will help them know how to prepare for weather conditions at every time of the year.<br><br>
-                This site will serve a secondary purpose of increasing the community spirit in the region by listing and promoting community events, sharing relevant news stories, and bringing people together. A community events calendar will be shared with dynamic information for up-to-date activities planned in the local communities for all to enjoy. </p>
-                <h2>Domain Name</h2>
-                <p>http://cloudywithachance.net<br>
-                This domain is currently available, and can be purchased from Google for $12 annually.</p>
-                <h2>Logo</h2>
-                <img id="logoImg" src="images/logo.png" alt="Idaho Weather Now Logo"><br>
-            </div>
+   <main>
+        <h2>Preston Idaho</h2>
+        <div class="contentbox">Hero with weather summary</div>
+        <div class="contentbox">5 day forecast</div>
+        <div class="contentbox">Article</div>
+        <div class="contentbox">Contact Information</div>
     </main>
     <footer class="footer">
         <div>
           <p>
-            &copy; <span id="year"></span> | Elizabeth Birnel | Utah | WDD 230 |
-            <a href="https://www.byui.edu/online" target="blank">BYUI Online Learning</a><br>
-            <p class="dateModified">Last Modified: <span id="lastModified"></span></p>
+            &copy; Cloudy With a Chance | Attributions | Elizabeth Birnel<br>
+            <span id="currentDate"></span>
           
         </div>
       </footer>

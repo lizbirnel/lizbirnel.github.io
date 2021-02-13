@@ -124,6 +124,8 @@ h2 {
 	font-size: 2em;
 	font-weight: bold;
 	}
+
+
 main {
 	max-width: 760px;
 	margin: auto;
@@ -132,9 +134,18 @@ main {
 .herodiv {margin: 10px auto;position: relative;}
 h1, h2, p {margin: 0;}
 
+.heroPic {
+	display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; width:100%;
+    padding:1rem;
+}
+
 #heroImg {
 	max-width: 100%;
 	
+}
+
+.weatherSumm {
+	display: block;
 }
 
 .stats {
@@ -146,30 +157,23 @@ h1, h2, p {margin: 0;}
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
 	/*background: radial-gradient(#eee, #4567aa);*/
 	border: 1px solid #000;
-	padding: 10px 30px 10px 30px;
+	text-align: center;
+	margin: auto;
+	padding: 1rem;
 	box-shadow: 0 0 30px #111;
 	opacity: .8;
-	position: absolute;
-	top: 25px;
-	left: 25px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: block;
 }
 
-#wthrsumm1 {
-	grid-column-start: 1;
-}
 
-#wthrsumm2 {
-	grid-column-start: 2;
-}
 
-.stats h3 {
+.weatherSumm .stats h3 {
 	color: #ffffff;
 	font-family: Lato, sans-serif;
 	font-size: 1.5rem;
-	text-decoration: underline;
-	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
 }
 
 
@@ -177,13 +181,10 @@ h1, h2, p {margin: 0;}
 	color: white;
 	font-size: 1.1rem;
 	line-height: 1.5rem;
-	text-align: right;
+	text-align: left;
+	margin: 0 20px;
 }
 
-.stats p.conditions {;
-	color: #FFD97D;
-	text-align: left;
-}
 
 .highTemp {
 	display: none;

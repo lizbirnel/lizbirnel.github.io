@@ -1,1 +1,1 @@
-WebFont.load({google: {families: ["Merriweather", "Lato"]}});
+WebFont.load({google: {families: ["Merriweather", "Lato", "Material Icons"]}});

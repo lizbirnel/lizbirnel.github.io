@@ -42,7 +42,7 @@ section{
     width: 100px;
     height: 100px;
     background: red;
-    transition: width 2s;
+    transition: width ;
   }
   
   .red:hover {
@@ -53,7 +53,7 @@ section{
     width: 100px;
     height: 100px;
     background: orange;
-    transition: width 2s, height 4s;
+    transition: width , height 4s;
   }
   
   .orange:hover {

@@ -246,15 +246,17 @@ tr:nth-child(odd) {
   width: 100%;
   box-sizing: border-box;
   padding: 1rem;
+  margin: 10px;
 }
 
 .galleryImg picture {
   padding: 1rem;
+  margin-left: auto
+  margin-right: auto;
 }
 
-.galleryImg{
+.galleryImg p {
   padding: 0 1rem 1rem 1rem;
-
 }
 
 /*.galleryHome {

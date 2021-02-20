@@ -81,6 +81,23 @@
 	margin: 15px;
 }
 
+.galleryHome {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  }
+  
+  .galleryHome picture {
+	box-shadow: 0 0 30px #111;
+  }
+  
+  .galleryImg {
+	max-width: 90%;
+  }
+
+/*.gallery-home {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}*/
 
 	} /*end medium */
 	

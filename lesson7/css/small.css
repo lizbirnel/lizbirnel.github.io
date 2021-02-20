@@ -248,18 +248,27 @@ tr:nth-child(odd) {
   padding: 1rem;
 }
 
-/*.gallery-home {
+.galleryImg picture {
+  padding: 1rem;
+}
+
+.galleryImg{
+  padding: 0 1rem 1rem 1rem;
+
+}
+
+/*.galleryHome {
   display:grid;
   grid-template-columns: 1fr;
 }
 
-.gallery-home p{ 
+.galleryHome p{ 
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom:1rem;
 }
 
-.gallery-images {
+.galleryImg {
   display: block;
   /*margin-left: auto;
   margin-right: auto;*/

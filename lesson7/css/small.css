@@ -125,11 +125,13 @@ h2 {
 	font-weight: bold;
 	}
 
+  main {max-width:1200px;
+    margin:0 auto;}
 
-main {
+/*main {
 	max-width: 760px;
 	margin: auto;
-}
+}*/
 
 .herodiv {margin: 10px auto;position: relative;}
 h1, h2, p {margin: 0;}
@@ -230,7 +232,7 @@ tr:nth-child(odd) {
 
 .galleryHome {
   margin: 10px auto;
-  position: relative;
+  /*position: relative;*/
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -241,7 +243,7 @@ tr:nth-child(odd) {
 
 .galleryImg {
   display: block;
-  width: 90%;
+  width: 100%;
   box-sizing: border-box;
   padding: 1rem;
 }

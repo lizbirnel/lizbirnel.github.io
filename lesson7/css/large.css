@@ -60,7 +60,11 @@
 	.galleryHome {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		max-width: 100vw;
+		
+	}
+
+	.galleryImg:hover {
+		box-shadow: 0 0 50px #333;
 	}
 	/*.gallery-home {
 		display:grid;

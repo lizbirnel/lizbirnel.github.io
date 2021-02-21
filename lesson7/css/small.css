@@ -125,8 +125,10 @@ h2 {
 	font-weight: bold;
 	}
 
-  main {max-width:1200px;
-    margin:0 auto;}
+  main {
+    max-width:1200px;
+    margin: auto;
+  }
 
 /*main {
 	max-width: 760px;
@@ -245,9 +247,7 @@ tr:nth-child(odd) {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  padding: 1rem;
-  margin: 10px;
-}
+  }
 
 .galleryImg picture {
   padding: 1rem;

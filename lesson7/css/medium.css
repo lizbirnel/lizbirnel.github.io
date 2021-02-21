@@ -86,18 +86,7 @@
 	grid-template-columns: 1fr 1fr;
   }
   
-  .galleryHome picture {
-	
-  }
   
-  .galleryImg {
-	width: 100;
-  }
-
-/*.galleryHome {
-	display:grid;
-	grid-template-columns: 1fr 1fr;
-}*/
 
 	} /*end medium */
 	

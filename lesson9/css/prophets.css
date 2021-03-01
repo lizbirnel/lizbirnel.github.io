@@ -31,6 +31,9 @@ h1 {
     max-width: 50%;
 }
 
+footer {
+    text-align: center;
+}
 
 /* 35em is also 560px when basefont is 16px */
 

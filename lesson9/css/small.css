@@ -465,10 +465,13 @@ form label.top input:required:valid {
 	text-align: center;
 }
 
-.happeningsImg {
-	max-width: 100%;
-	margin: auto;
+.happeningsImg img{
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 1rem;
+	box-sizing: border-box;
 }
 
 /*#happeningsImg {

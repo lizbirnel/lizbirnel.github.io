@@ -12,7 +12,7 @@ fetch(requestURL)
 
         for (let i = 0; i < towns.length; i++) {
 
-            //if(towns[i].name == 'Preston') {
+            //if(towns[i].name == 'Preston') || == {
 
             
             let card = document.createElement('article');

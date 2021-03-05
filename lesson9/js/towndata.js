@@ -7,12 +7,12 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject); //temporary checking for valid response and data parsing
         const towns = jsonObject['towns'];
-        towns.shift();
-        towns.splice(1,3);
+        //towns.shift();
+        //towns.splice(1,3);
 
         for (let i = 0; i < towns.length; i++) {
 
-            //if(towns[i].name == 'Preston') || == {
+            if(towns[i].name === 'Preston'|| towns[i].name === 'Fish Haven' || towns[i].name === 'Soda Springs') {
 
             
             let card = document.createElement('article');
@@ -51,7 +51,7 @@ fetch(requestURL)
             document.querySelector('div.cards').appendChild(card);
 
           
-//        }
+        }
 
         }
     });

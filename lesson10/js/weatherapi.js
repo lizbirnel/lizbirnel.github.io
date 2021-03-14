@@ -45,8 +45,10 @@ fetch(apiURL2)
         let forecastArray = jsObject.list.filter(filterTime);
         //console.log(forecastArray);
         for (let i=0; i<5; i++) {
-            document.getElementById(`imgDay${i+1}`).setAttribute('src', `https://openweathermap.org/img/w/${forecastArray[i].weather[0].icon}.png`);
-            document.getElementById(`imgDay${i+1}`).setAttribute('alt', forecastArray[i].weather[0].description);
+            let image = document.createElement('img');
+            image.setAttribute('src', `https://openweathermap.org/img/w/${forecastArray[i].weather[0].icon}.png`);
+            image.setAttribute('alt', forecastArray[i].weather[0].description);
+            document.getElementById(`imgDay${i+1}`).appendChild(image);
             document.getElementById(`temp${i+1}`).textContent = forecastArray[i].main.temp_max;
         }
         

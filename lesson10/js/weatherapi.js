@@ -43,7 +43,7 @@ fetch(apiURL2)
     .then((jsObject) => {
        // console.log(jsObject);
         let forecastArray = jsObject.list.filter(filterTime);
-        console.log(forecastArray);
+        //console.log(forecastArray);
         for (let i=0; i<5; i++) {
             document.getElementById(`imgDay${i+1}`).setAttribute('src', `https://openweathermap.org/img/w/${forecastArray[i].weather[0].icon}.png`);
             document.getElementById(`imgDay${i+1}`).setAttribute('alt', forecastArray[i].weather[0].description);

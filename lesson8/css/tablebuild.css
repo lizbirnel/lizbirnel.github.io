@@ -36,3 +36,7 @@ tfoot {
     font-size: 18px;
 
 }
+
+tbody tr:nth-child(5) td:nth-child(1) {
+    font-style: italic;
+}

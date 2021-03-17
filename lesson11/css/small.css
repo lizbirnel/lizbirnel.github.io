@@ -16,6 +16,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 30px;
 }
 
 #pancake {
@@ -84,6 +85,7 @@ nav, footer {
 
 nav {
 	text-align: center;
+	margin-bottom: 25px;
 }
 
 nav ul {
@@ -127,7 +129,7 @@ h2 {
 	text-align: center;
 	font-size: 2em;
 	font-weight: bold;
-	padding: 25px;
+	/*padding: 25px;*/
 	}
 
   main {
@@ -285,6 +287,10 @@ tr:nth-child(odd) {
 	background-color: #eee;
 	color: #444;
 	font-style: italic;
+}
+
+footer {
+	padding: 35px;
 }
 
 footer, footer a {
@@ -498,7 +504,8 @@ form label.top input:required:valid {
     /*color:navy; 
     font-family: 'Merriweather', serif;
     font-size: 1.2rem;*/
-	margin-bottom: -35px;
+	margin-bottom: 35px;
+
 }
 
 .cards h3 {
@@ -544,7 +551,7 @@ form label.top input:required:valid {
 
 .intro {
 	margin: 20px auto;
-	width: 60%;
+	width: 65%;
 	line-height: 2rem;
 	text-align: center;
 

@@ -108,12 +108,12 @@ article:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 
-.cards h2 {
-    /*color:navy; 
+/*.cards h2 {
+    color:navy; 
     font-family: 'Merriweather', serif;
-    font-size: 1.2rem;*/
+    font-size: 1.2rem;
 	margin-bottom: -35px;
-}
+}*/
 
 .cards h3 {
 	color: navy;

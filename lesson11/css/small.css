@@ -520,3 +520,22 @@ form label.top input:required:valid {
     line-height: 1.5rem;
 }
 
+.events {
+	/*display: none;*/
+	width: 100%;
+	text-align: center;
+	padding: 25px;
+	margin: 25px auto;
+	background-color:#FFD97D ;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px #666;
+}
+
+.events h3 {
+	font-style: italic;
+	font-size: 2.5 em;
+}
+.events p {
+	line-height: 35px;
+}
+

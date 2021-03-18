@@ -6,7 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 body {
-	background-color:  white;
+	background-color:  rgb(247, 247, 247);
 	font-family: Merriweather, serif;
 }
 
@@ -43,7 +43,7 @@ header {
 
 .headings h1 {
 	font-family: Lato, sans-serif;
-	color: navy;
+	color: #1E4F89;
 	margin: 0 0 0 17px;
 	font-size: 2rem;
 	text-align: center;
@@ -54,7 +54,7 @@ header {
 	font-style: italic;
 	font-size: 1em;
 	font-weight: bold;
-	color: navy;
+	color: #1E4F89;
 	text-align: center;
 }
 
@@ -67,11 +67,13 @@ nav button {
 }
 
 nav, footer {
-	background: navy; /* Old browsers */
-		background: -moz-linear-gradient(top, #457B9D 0%, navy 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #457B9D 0%,navy 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #457B9D 0%, navy 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
+	background-color: #1E4F89;
+	
+	/*background: navy; /* Old browsers */
+		/*background: -moz-linear-gradient(top, #457B9D 0%, navy 100%); /* FF3.6-15 */
+		/*background: -webkit-linear-gradient(top,  #457B9D 0%,navy 100%); /* Chrome10-25,Safari5.1-6 */
+		/*background: linear-gradient(to bottom,  #457B9D 0%, navy 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
 	font-family: Verdana, sans-serif; 
 	/*margin: 0 auto;*/
 	margin-left: auto;
@@ -116,7 +118,7 @@ nav ul li.active a{
 nav ul li a:hover {
 	/*background-color: rgba(0,0,0,0.4);*/
 	background-color: #FFD97D;
-	color: navy;
+	color: #1E4F89;
 }
 
 nav ul.hide {
@@ -125,7 +127,7 @@ nav ul.hide {
 
 h2 {
 	font-family: Lato, sans-serif;
-	color: navy;
+	color: #1E4F89;
 	text-align: center;
 	font-size: 2em;
 	font-weight: bold;
@@ -161,11 +163,13 @@ h1, h2, p {margin: 0;}
 
 .stats {
 	
-	background: navy; /* Old browsers */
-		background: -moz-linear-gradient(top, #457B9D 0%, navy 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #457B9D 0%,navy 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #457B9D 0%, navy 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
+	background-color: white; 
+	/*background-color: #1E4F89;
+	/*background: navy; /* Old browsers */
+	/*	background: -moz-linear-gradient(top, #457B9D 0%, navy 100%); /* FF3.6-15 */
+	/*	background: -webkit-linear-gradient(top,  #457B9D 0%,navy 100%); /* Chrome10-25,Safari5.1-6 */
+	/*	background: linear-gradient(to bottom,  #457B9D 0%, navy 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
 	/*background: radial-gradient(#eee, #4567aa);*/
 	border: 1px solid #000;
 	text-align: center;
@@ -179,7 +183,7 @@ h1, h2, p {margin: 0;}
 
 
 .weatherSumm .stats h3 {
-	color: #ffffff;
+	color: #1E4F89;
 	font-family: Lato, sans-serif;
 	font-size: 1.5rem;
 	margin: 0 auto;
@@ -189,7 +193,7 @@ h1, h2, p {margin: 0;}
 
 
 .stats p {
-	color: white;
+	color: #1E4F89;
 	font-size: 1.1rem;
 	line-height: 1.5rem;
 	text-align: left;
@@ -229,9 +233,9 @@ tr:nth-child(odd) {
 .article {
 	position: relative;
 	margin: 30px 0px;
-	padding: 10px;
-	border: 1px solid #ccc;
-	background-color: rgb(228, 226, 226);
+	padding: 20px 30px;
+	/*border: 1px solid #ccc;*/
+	background-color: c;
 }  
 
 #articleImg {
@@ -376,13 +380,13 @@ footer, footer a {
 /*-----------FORM----------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid navy;
+    border: 1px solid #1E4F89;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: navy;
+    color: #1E4F89;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -390,7 +394,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: navy;
+    color: #1E4F89;
     font-size: .8rem;
 }
 
@@ -416,7 +420,7 @@ form label.sbs {
 form input.submitBtn {
     border: none;
     background-color: #f0b52a;
-    color: navy;
+    color: #1E4F89;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -426,13 +430,14 @@ form input.submitBtn {
 }
 
 form input.submitBtn:hover {
-	background: navy; /* Old browsers */
-		background: -moz-linear-gradient(top, #457B9D 0%, navy 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #457B9D 0%,navy 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #457B9D 0%, navy 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
+	background-color: #1E4F89;
+	/*background: navy; /* Old browsers */
+	/*	background: -moz-linear-gradient(top, #457B9D 0%, navy 100%); /* FF3.6-15 */
+	/*	background: -webkit-linear-gradient(top,  #457B9D 0%,navy 100%); /* Chrome10-25,Safari5.1-6 */
+	/*	background: linear-gradient(to bottom,  #457B9D 0%, navy 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
 	color: #f0b52a; 
-	border: 2px solid #f0b52a;
+	/*border: 2px solid #f0b52a;*/
 }
 
 form label.top input:required {
@@ -451,7 +456,7 @@ form label.top input:required:valid {
 	display: grid;
 	grid-template-columns: 1fr;
 	background-color: #F7CD68;
-	margin: auto;
+	margin: 20px auto;
 }
 
 .happenings section {
@@ -485,7 +490,7 @@ form label.top input:required:valid {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: .8rem;
-    background-color: white;
+    
     padding: 15px;
     margin: 30px auto;
     
@@ -494,8 +499,9 @@ form label.top input:required:valid {
 .cards article {
 	display: grid;
 	grid-template-rows: 1fr 1fr;
-    border:  1px solid navy;
-    background-color: #EAF3FA;
+    /*border:  1px solid navy;
+    background-color: #EAF3FA;*/
+	background-color: #1E4F89;
     padding: 1rem;
 	margin: 5px auto ;
 }
@@ -504,14 +510,17 @@ form label.top input:required:valid {
     /*color:navy; 
     font-family: 'Merriweather', serif;
     font-size: 1.2rem;*/
-	margin-bottom: 35px;
+	color: white;
+	font-size: 2rem;
+	margin-bottom: 25px;
 
 }
 
 .cards h3 {
-	color: navy;
+	color: white;
 	font-family: 'Merriweather', serif;
-	font-size: .75rem;
+	font-style: italic;
+	font-size: .9rem;
 	
 }
 
@@ -526,6 +535,7 @@ form label.top input:required:valid {
 
 .cards p {
     line-height: 1.5rem;
+	color: white;
 }
 
 .events {

@@ -93,7 +93,7 @@
 		display: grid;
 		grid-template-rows: 1fr ;
 		margin: .5rem;
-		padding: 0;
+		padding: 20px;
 	}
 	
 	.cards h2 {

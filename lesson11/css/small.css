@@ -417,6 +417,12 @@ form label.sbs {
     color: #555;
 }
 
+form input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 form input.submitBtn {
     border: none;
     background-color: #f0b52a;

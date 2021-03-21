@@ -235,7 +235,7 @@ tr:nth-child(odd) {
 	margin: 30px 0px;
 	padding: 20px 30px;
 	/*border: 1px solid #ccc;*/
-	background-color: c;
+	/*background-color: ;*/
 }  
 
 #articleImg {
@@ -557,7 +557,7 @@ form label.top input:required:valid {
 
 .events h3 {
 	font-style: italic;
-	font-size: 2.5 em;
+	font-size: 1.3em;
 }
 .events p {
 	line-height: 35px;

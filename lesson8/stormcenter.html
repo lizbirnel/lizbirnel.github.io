@@ -16,9 +16,8 @@
     
 </head>
 <body>
-    <div id="pancake">
-        <h3>Saturday = Preston Pancakes in the Park!</h3>
-        <p>9:00 a.m. Saturday at the city park pavilion.</p> 
+   <div id="pancake">
+        <p><b>Saturday = Preston Pancakes in the Park!</b> 9:00 a.m. Saturday at the city park pavilion.</p> 
     </div>
     
     <header>
@@ -32,26 +31,25 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;Menu</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li><a href="preston-8.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>  
-            <li class="active"><a href="#">Storm Center</a></li>
-            <li><a href="gallery-7.html">Gallery</a></li> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>  
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li> 
         </ul>
     </nav>   
     
    <main>
         <h2>Storm Center</h2>
         
-
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top">Name* <input type="text" name="name" pattern="[A-Za-z].{4,}" required></label>
+                <label class="top">Name* <input type="text" name="name" pattern="[A-Za-z]{5,}" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Zip Code* <input id="zip"  type="text" name="zip" required></label>
+                <label class="top">Zip Code* <input id="zip"  type="number" name="zip"  placeholder="14234" required></label>
             </fieldset>
                 
             <fieldset>
@@ -67,7 +65,7 @@
                 </datalist>
                 
 
-                <label class="top" for="rating">Storm Severity (1-10) &nbsp;&nbsp;&nbsp;
+                <label class="" for="rating">Storm Severity (1-10) &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                 </label>
@@ -87,7 +85,7 @@
 
                 <label class="top">Storm Region
                     <select name="region">
-                       <option value="">Select Region &#9662;</option>
+                       <option value="" disabled selected>Select Region &#9662;</option>
                         <option value="preston">Preston</option>
                         <option value="soda-springs">Soda Springs</option>
                         <option value="fish-haven">Fish Haven</option>
@@ -104,7 +102,7 @@
             <fieldset>
                     <legend>Additional Comments or Information</legend>
                     <label class="top">Please enter any additional details below.<br>
-                        <textarea id="textbox" rows="5" cols="40" name="comment">
+                        <textarea id="textbox" rows="5" cols="35" name="comment">
                      </textarea>
                      </label>
                        
@@ -118,11 +116,11 @@
     </main>
     <footer class="footer">
         <div>
-          <p>
-            &copy; Cloudy With a Chance | <a href="/index.html">Utah</a> | Elizabeth Birnel<br>
-            <span id="currentDate"></span>
-          
-        </div>
+            <p>
+              &copy; Cloudy With a Chance | <a href="https://openweathermap.org/" target="blank">Open Weather API</a> | <a href="https://lizbirnel.github.io/">Elizabeth Birnel</a><br>
+              <span id="currentDate"></span>
+            
+          </div>
       </footer>
       <script src="js/pancake-banner.js"></script>
       <script src="js/menu.js"></script>

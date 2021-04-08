@@ -439,6 +439,11 @@ footer, footer a {
 
 /*------Join Page Form------*/
 
+.memberBenefits {
+    padding: 1rem;
+}
+
+
 .article {
 	position: relative;
 	margin: 30px 0px;

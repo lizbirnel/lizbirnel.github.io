@@ -101,7 +101,7 @@ nav ul li.active a{
 
 nav ul li a:hover {
 	/*background-color: rgba(0,0,0,0.4);*/
-	background-color: #90A338;
+	background-color: #96a74e;
 	color: #215353;
 }
 
@@ -181,9 +181,9 @@ nav ul.hide {
 }
 
 .member a {
-    background-color: #90A338;
+    background-color: #96a74e;
     box-shadow: 2px 2px  black;
-    color: #FEFCFD;
+    color: black;
     padding: .7em 1.5em;
     position: relative;
     text-decoration: none;
@@ -194,6 +194,7 @@ nav ul.hide {
   
   .member a:hover {
     background-color: #215353;
+    color: #FEFCED;
     cursor: pointer;
   }
   
@@ -240,9 +241,9 @@ nav ul.hide {
 }
 
 .localbusiness a {
-    background-color: #90A338;
+    background-color: #96a74e;
     box-shadow: 2px 2px  black;
-    color: #FEFCFD;
+    color: black;
     padding: .7em 1.5em;
     position: relative;
     text-decoration: none;
@@ -253,6 +254,7 @@ nav ul.hide {
   
   .localbusiness a:hover {
     background-color: #215353;
+    color: #FEFCED;
     cursor: pointer;
   }
   
@@ -322,8 +324,8 @@ nav ul.hide {
 
 
 .contact {
-    background-color: #90A338;
-    color: #FEFCFD;
+    background-color: #96a74e;
+    color: black;
     padding: 20px;
     text-align: center; 
     
@@ -503,9 +505,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 form input.submitBtn {
-    background-color: #90A338;
+    background-color: #96a74e;
     box-shadow: 1px 1px  black;
-    color: #FEFCFD;
+    color: black;
     padding: .7em 1.5em;
     position: relative;
     text-decoration: none;
@@ -545,9 +547,8 @@ form label.top input:required:valid {
 
 .cards {
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: .8rem;
-    
     padding: 15px;
     margin: 30px auto;
     
@@ -558,7 +559,7 @@ form label.top input:required:valid {
 	grid-template-rows: 1fr 1fr;
     /*border:  1px solid navy;
     background-color: #EAF3FA;*/
-	background-color: #1E4F89;
+	background-color: #96a74e;
     padding: 1rem;
 	margin: 5px auto ;
 }
@@ -567,15 +568,15 @@ form label.top input:required:valid {
     /*color:navy; 
     font-family: 'Merriweather', serif;
     font-size: 1.2rem;*/
-	color: white;
+	color: black;
 	font-size: 2rem;
 	margin-bottom: 25px;
 
 }
 
 .cards h3 {
-	color: white;
-	font-family: 'Merriweather', serif;
+	color: black;
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	font-size: .9rem;
 	
@@ -583,7 +584,7 @@ form label.top input:required:valid {
 
 .cards img {
     /*box-shadow: 10px 10px 10px gray;*/
-    width: 100%;
+    width: 50%;
 	display: block;
 	margin: auto;
 	box-sizing: border-box;
@@ -592,7 +593,7 @@ form label.top input:required:valid {
 
 .cards p {
     line-height: 1.5rem;
-	color: white;
+	color: black;
 }
 
 
@@ -606,8 +607,8 @@ form label.top input:required:valid {
 }
 
 .contactUs h2 {
-    background-color:#90A338;
-    color: white;
+    background-color:#96a74e;
+    color: black;
     width: 100%;
     padding: 25px 0px;
     text-align: center;

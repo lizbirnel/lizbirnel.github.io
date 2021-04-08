@@ -41,7 +41,7 @@ fetch(apiURL2)
        // console.log(jsObject);
         let forecastArray = jsObject.list.filter(filterTime);
         //console.log(forecastArray);
-        for (let i=0; i<5; i++) {
+        for (let i=0; i<3; i++) {
             let image = document.createElement('img');
             image.setAttribute('src', `https://openweathermap.org/img/w/${forecastArray[i].weather[0].icon}.png`);
             image.setAttribute('alt', forecastArray[i].weather[0].description);
@@ -62,3 +62,20 @@ function filterTime(list) {
         return false;
     }
 }
+
+const alertURL = `https://api.openweathermap.org/data/2.5/onecall?lat=40.6097&lon=-111.9391&exclude=current,minutely,hourly,daily&appid=${appid}&units=imperial`;
+//const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityID}&APPID=${appid}&units=imperial`;
+
+fetch(alertURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        //console.log(jsObject);
+        
+        
+        const alerts = jsObject['alerts']; 
+        
+        if(alerts !== undefined && alerts.length>0) {
+            alert(alerts[0].description);
+        }
+        
+    });

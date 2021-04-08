@@ -118,6 +118,42 @@ td {color: #FEFCFD;}
 	background-color: #ffffff;
   }*/ 
 
+/*------Directory Page-------*/
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+} 
+
+.cards article {
+	display: grid;
+	grid-template-rows: 1fr ;
+	margin: .5rem;
+	padding: 20px;
+}
+
+.cards h2 {
+	font-size: 1.5rem;
+}
+
+.cards img {
+	width: 50%;
+	padding: 0;
+
+}
+
+.cards div {
+	width: 100%;
+	padding: 1rem;
+
+}
+
+.cards p {
+	font-size: 1.1rem;
+	line-height: 2rem;
+}
+
+
 /*------Contact Page----------*/
 
 .boardImages {

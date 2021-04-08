@@ -156,6 +156,52 @@ td {color: #FEFCFD;}
     right: 15px;
 }
 
+/*--------Directory Page---------*/
+
+.cards {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    /*width: 650px;*/
+	margin: auto;
+}
+
+.cards article {
+	display: grid;
+	grid-template-rows: 1fr ;
+	margin: .5rem;
+	padding: 20px;
+}
+
+article:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+/*.cards h2 {
+    color:navy; 
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+	margin-bottom: -35px;
+}*/
+
+.cards h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: .75rem;
+	
+}
+
+.cards img {
+    width: 100px;
+}
+
+.cards div {
+	width: 50%;
+	
+}
+
+.cards p {
+    line-height: 1.5rem;
+}
+
 
 /*------Contact Page----------*/
 
@@ -168,6 +214,8 @@ td {color: #FEFCFD;}
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+
 
 
 } /*end medium */

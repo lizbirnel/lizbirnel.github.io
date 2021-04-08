@@ -2,7 +2,7 @@ const requestURL = 'https://lizbirnel.github.io/external/json/directory.json';
 
 fetch(requestURL) 
     .then(function (response) {
-        console.log(response);
+        //console.log(response);
         return response.json();
         //return response.text();
     })
@@ -18,7 +18,11 @@ fetch(requestURL)
 
             //if(towns[i].name === 'Preston'|| towns[i].name === 'Fish Haven' || towns[i].name === 'Soda Springs') {
 
+            /*let gridDiv = document.createElement('div');
+            gridDiv.setAttribute('class', "row");*/
+
             let card = document.createElement('article');
+            card.setAttribute('class', "column")
             
             let dataDiv = document.createElement('div');
 
@@ -35,7 +39,11 @@ fetch(requestURL)
             phone.textContent = 'Phone: ' + directory[i].phone;
 
             let website = document.createElement('p');
-            website.textContent = directory[i].websiteurl;
+            let link = document.createElement('a');
+            link.setAttribute('href', directory[i].websiteurl);
+            link.setAttribute('target', "blank");
+            link.textContent = directory[i].websiteurl;
+            website.appendChild(link);
          
             dataDiv.appendChild(h2);
             dataDiv.appendChild(address);
@@ -46,16 +54,17 @@ fetch(requestURL)
             document.querySelector('div.cards').appendChild(card);
             
             let image = document.createElement('img');
-            image.setAttribute('src', 'external/images/' + directory[i].logoimgurl);
+            image.setAttribute('src', directory[i].logoimgurl);
             image.setAttribute('alt', directory[i].name);
 
             card.appendChild(image);
             document.querySelector('div.cards').appendChild(card);
 
-          
+            /*gridDiv.appendChild(card);*/
+
         //}
 
         }
     }).catch(error => {
-        console.error("Error: ", error);
+     //   console.error("Error: ", error);
     });

@@ -3,12 +3,12 @@ const requestURL = 'https://lizbirnel.github.io/external/json/directory.json';
 fetch(requestURL) 
     .then(function (response) {
         console.log(response);
-        //return response.json();
-        return response.text();
+        return response.json();
+        //return response.text();
     })
     .then(function (jsonObject) {
-        let test = JSON.parse(jsonObject);
-        console.log(jsonObject);
+        //let test = JSON.parse(jsonObject);
+        //console.log(jsonObject);
         //console.table(jsonObject); //temporary checking for valid response and data parsing
         const directory = jsonObject['directory'];
         //towns.shift();

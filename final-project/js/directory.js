@@ -1,10 +1,14 @@
-const requestURL = 'exterior/json/directory.json';
+const requestURL = 'https://lizbirnel.github.io/external/json/directory.json';
 
 fetch(requestURL) 
     .then(function (response) {
-        return response.json();
+        console.log(response);
+        //return response.json();
+        return response.text();
     })
     .then(function (jsonObject) {
+        let test = JSON.parse(jsonObject);
+        console.log(jsonObject);
         //console.table(jsonObject); //temporary checking for valid response and data parsing
         const directory = jsonObject['directory'];
         //towns.shift();
@@ -52,4 +56,6 @@ fetch(requestURL)
         //}
 
         }
+    }).catch(error => {
+        console.error("Error: ", error);
     });

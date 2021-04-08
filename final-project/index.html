@@ -61,16 +61,13 @@
           />
         </figure>
         <div class="becomeMember">
-            <section class="member">
-              <h3>Join the Chamber</h3>
-              <p>
-                Learn about the benefits of joining the chamber.
-              </p>
-              <a href="join.html">Join</a>
-            </section>
-          </div>
+          <section class="member">
+            <h3>Join the Chamber</h3>
+            <p>Learn about the benefits of joining the chamber.</p>
+            <a href="join.html">Join</a>
+          </section>
+        </div>
       </div>
-      
 
       <div class="intro">
         <h2>Who We Are</h2>
@@ -141,7 +138,9 @@
                 (801) 566-0917<br />
               </p>
               <p>
-                Utah's own silo experience starts here at Gardner Village. Discover locally-owned shops, restaurants and event venues nestled around the historic Gardner Mill.
+                Utah's own silo experience starts here at Gardner Village.
+                Discover locally-owned shops, restaurants and event venues
+                nestled around the historic Gardner Mill.
               </p>
             </div>
             <img
@@ -150,21 +149,29 @@
             />
           </article>
         </div>
-        <p>See more of our local business partners in the Chamber of Commerce Directory here. </p>
+        <p>
+          See more of our local business partners in the Chamber of Commerce
+          Directory here.
+        </p>
         <a href="directory.html">Directory</a>
       </div>
       <div class="events">
-          <section>
+        <section>
           <h3>Upcoming Events</h3>
           <p>Some of the local events happening in the community.</p>
-          <ul>
-            <li><b>West Jordan City Easter Egg Hunt:</b> Saturday April 3, 2021</li><br>
-            <img src="images/easter-egg-hunt.jpg" alt="Easter Egg Hunt Flyer"><br>
-            <li><b>Strictly Networking Luncheon:</b> Thursday May 6, 2021</li><br>
-            <li><b>Chamber Mixer:</b> Thursday May 27, 2021</li><br>
-            <li><b>Memorial Day Car Cruise:</b> Moday May 31, 2021</li><br>
-            <img src="images/car-cruise.jpg" alt="Car Cruise Flyer">
-        </ul>
+          <section>
+            <p>
+              <b>West Jordan City Easter Egg Hunt:</b> Saturday April 3, 2021
+            </p>
+            <img
+              src="images/easter-egg-hunt.jpg"
+              alt="Easter Egg Hunt Flyer"
+            /><br />
+            <p><b>Strictly Networking Luncheon:</b> Thursday May 6, 2021</p>
+            <p><b>Chamber Mixer:</b> Thursday May 27, 2021</p>
+            <p><b>Memorial Day Car Cruise:</b> Moday May 31, 2021</p>
+            <img src="images/car-cruise.jpg" alt="Car Cruise Flyer" />
+          </section>
         </section>
       </div>
 
@@ -178,47 +185,53 @@
           <br />
           <p>&phone; 801-970-3671<br />&#9993; info@westjordanchamber.com</p>
           <br />
-          <a href="https://www.facebook.com/" target="blank"><img class="socialIcon" src="images/facebook.png" alt="facebook" /></a>
-          <a href="https://www.linkedin.com/" target="blank"><img class="socialIcon" src="images/linkedin.png" alt="linked in" /></a>
-          <a href="https://www.instagram.com/" target="blank"><img class="socialIcon" src="images/instagram.png" alt="instagram" /></a>
-          <a href="https://twitter.com/" target="blank"><img class="socialIcon" src="images/twitter.png" alt="twitter" /></a>
+          <a href="https://www.facebook.com/" target="blank"
+            ><img class="socialIcon" src="images/facebook.png" alt="facebook"
+          /></a>
+          <a href="https://www.linkedin.com/" target="blank"
+            ><img class="socialIcon" src="images/linkedin.png" alt="linked in"
+          /></a>
+          <a href="https://www.instagram.com/" target="blank"
+            ><img class="socialIcon" src="images/instagram.png" alt="instagram"
+          /></a>
+          <a href="https://twitter.com/" target="blank"
+            ><img class="socialIcon" src="images/twitter.png" alt="twitter"
+          /></a>
         </section>
       </div>
     </main>
-      <div class="weather">
-        <div class="weatherSumm">
-          <h3>West Jordan Weather</h3>
-          <section class="stats">
-            
-            <p>
-              Currently: <span id="currently"></span>&nbsp;<span
-                id="currentTemp"
-              ></span
-              >&#176;F
-            </p>
-            <p>Humidity: <span id="humidity"></span>%</p>
-          </section>
-        </div>
-        <table id="threeDay">
-          <tr>
-            <th id="day1"></th>
-            <th id="day2"></th>
-            <th id="day3"></th>
-          </tr>
-          <tr>
-            <td>
-              <span id="imgDay1"></span><br /><span id="temp1"></span>&deg;F
-            </td>
-            <td>
-              <span id="imgDay2"></span><br /><span id="temp2"></span>&deg;F
-            </td>
-            <td>
-              <span id="imgDay3"></span><br /><span id="temp3"></span>&deg;F
-            </td>
-          </tr>
-        </table>
+    <div class="weather">
+      <div class="weatherSumm">
+        <h3>West Jordan Weather</h3>
+        <section class="stats">
+          <p>
+            Currently: <span id="currently"></span>&nbsp;<span
+              id="currentTemp"
+            ></span
+            >&#176;F
+          </p>
+          <p>Humidity: <span id="humidity"></span>%</p>
+        </section>
       </div>
-    
+      <table id="threeDay">
+        <tr>
+          <th id="day1"></th>
+          <th id="day2"></th>
+          <th id="day3"></th>
+        </tr>
+        <tr>
+          <td>
+            <span id="imgDay1"></span><br /><span id="temp1"></span>&deg;F
+          </td>
+          <td>
+            <span id="imgDay2"></span><br /><span id="temp2"></span>&deg;F
+          </td>
+          <td>
+            <span id="imgDay3"></span><br /><span id="temp3"></span>&deg;F
+          </td>
+        </tr>
+      </table>
+    </div>
 
     <footer>
       <div>
@@ -236,5 +249,5 @@
     <script src="js/date.js"></script>
     <script src="js/three-day-forecast.js"></script>
     <script src="js/westjordan-weather-api.js"></script>
-</body>
+  </body>
 </html>

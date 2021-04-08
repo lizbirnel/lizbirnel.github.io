@@ -158,6 +158,7 @@ td {color: #FEFCFD;}
 
 /*--------Directory Page---------*/
 
+
 .cards {
     display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -172,11 +173,11 @@ td {color: #FEFCFD;}
 	padding: 20px;
 }
 
-article:nth-child(odd) {
+/*article:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 
-/*.cards h2 {
+.cards h2 {
     color:navy; 
     font-family: 'Merriweather', serif;
     font-size: 1.2rem;

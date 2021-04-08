@@ -120,6 +120,12 @@ td {color: #FEFCFD;}
 
 /*------Directory Page-------*/
 
+.buttons {
+    display: block;
+    margin: 0 0 0 1.5rem;
+}
+
+
 .cards {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

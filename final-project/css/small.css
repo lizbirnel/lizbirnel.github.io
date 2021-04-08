@@ -545,6 +545,10 @@ form label.top input:required:valid {
 
 /*----------------Directory Page--------------*/
 
+.buttons {
+    display: none;
+}
+
 .cards {
     text-align: center;
     font-family: 'Raleway', sans-serif;
